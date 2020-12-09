@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script src="https://kit.fontawesome.com/963175a595.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="modal hidden">
+    <h2 class="modal__heading">
+      Add User
+    </h2>
+    <form class="modal__form" action="">
+      <input class="modal__input modal__field" type="name" name="name" placeholder="Name">
+      <textarea name="description" placeholder="Description" class="modal__txt-area modal__field"></textarea>
+      <!-- <input type="file" name="upload" class="modal__upload"> -->
+      <label class="modal__custom-upload">
+        <input type="file" class="modal__upload"/>
+        Upload image
+      </label>
+      <button class="modal__sbmt hidden">Save</button>
+    </form>
+
+  </div>
+  <div class="users">
+    <div class="user__content">
+      <button class="user__add">
+        +
+      </button>
+      <div class="user__container">
+        <!-- <div class="user">
+          <div class="user__about">
+            <div class="user__img-container">
+              <img src="" alt="user" class="user__img">
+            </div>
+            <div class="user__info">
+              <h3 class="user__info_name">
+                Albert
+              </h3>
+              <p class="user__info_description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore maxime architecto non delectus sunt
+                dolorem beatae itaque dolore ipsam quas?
+              </p>
+            </div>
+          </div>
+          <div class="user__actions">
+            <button class="user__actions_delete">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="user__actions_additional">
+              <button class="user__actions_comment">
+                <img src="./assets/icons/mirror.png" alt="">
+              </button>
+              <button class="user__actions_calendar">
+                <i class="far fa-calendar-alt"></i>
+              </button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
